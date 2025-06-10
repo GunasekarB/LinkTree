@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gunasekar B | LinkTree</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favi.svg" type="image/x-icon">
+    <!-- Google tag (gtag.js)
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PNLK56KGTP"></script>
+    <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+        gtag('config', 'G-PNLK56KGTP');
+    </script> -->
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Main -->
+        <p>Hello, I'm <br>
+            <span class="name"></span> <br>
+        </p>
+        <img src="profile-picture.png" alt="Profile-Image">
+        <br>
+        <p>I'm <span class="typing"></span></p>
+        <!-- Link -->
+        <div class="links">
+            <span class="github">
+                <a href="https://github.com/GunasekarB" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </span>
+            <span class="linked">
+                <a href="https://www.linkedin.com/in/gunasekar-b-a4034a364" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </span>
+            <span class="insta">
+                <a href="https://www.instagram.com/bygs._?igsh=MW9pY3pjZjNsaGhweg==" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </span>
+            <!-- <span class="twitter">
+                <a href="https://x.com/gunabygs?t=7zlfnfrNWrsPqoeu3xP7AA&s=09" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i> 
+                 </a>
+            </span> -->
+            <span class="mail">
+                <a href="mailto:gunabygs@gmail.com" target="_blank">
+                    <i class="fa fa-envelope"></i>
+                </a>
+            </span>
+            <div class="resume">
+                <a href="https://flowcv.com/resume/2v75vt9eww" target="_blank" class="resume-link">Resume</a>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="bottom-text">
+                <p><span id="current-year"></span> ©
+                    <a href="mailto:gunabygs@gmail.com">Gunasekar B</a>
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script>
+        var typed = new Typed(".typing", {
+            strings: ["GUNASEKAR B", "Gunasekar B"],
+            typeSpeed: 100,
+            backSpeed: 60,
+            cursorChar: ' |',
+            smartBackspace: true,
+            loop: true
+        });
+        // jQuery document ready function
+        $(document).ready(function () {
+            // Update the current year dynamically
+            var currentYear = new Date().getFullYear();
+            $("#current-year").text(currentYear);
+        });
+    </script>
+</body>
+
+</html>
