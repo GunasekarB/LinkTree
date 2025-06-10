@@ -5,7 +5,7 @@
 }
 body{
     background-color: rgba(0, 0, 0, 1);
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Poppins', sans-serif; 
     font-size: 15px;
     letter-spacing: 2px;
@@ -18,7 +18,7 @@ body{
 }
 p{
     padding: 10px;
-    color: #7f8c8d;
+    color: #FE7743;
     font-size: 20px;
     text-align: center;
 }
@@ -71,7 +71,7 @@ footer{
 
   /* links */
 .github a i:hover, .hackerrank a i:hover {
-    background: #2B3035;
+    background: #727c86;
     transition: 0.3s ease-in-out;
     border-radius: 27px;
 }
@@ -131,6 +131,12 @@ footer{
 }
 .resume-link:hover {
         background-color: #CCCCCC;
+}
+.gunasekar{
+    color: #4489b8;
+}
+.gunasekar:hover{
+    color: #b3d9f3;
 }
 @media screen and (max-width:480px) {
     .mail a i:hover{
